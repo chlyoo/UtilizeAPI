@@ -1,0 +1,4 @@
+Current Air status is
+{% for item in list %}
+{{ item }}
+{% endfor %}

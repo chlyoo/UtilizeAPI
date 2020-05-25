@@ -1,2 +1,1 @@
-# UtilizeAPI
-Google API + Public API + Flask web + EVSim
+Public API + Flask Web + Celery + Flask Mail
