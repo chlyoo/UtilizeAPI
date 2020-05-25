@@ -15,7 +15,7 @@ bootstrap = Bootstrap()
 mail = Mail()
 moment = Moment()
 #simulator run
-from .pub_api.agent import agent_initiate
+from pub_api.agent import agent_initiate
 from threading import Thread,Lock,Timer
 POOL_TIME=5
 

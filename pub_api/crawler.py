@@ -21,7 +21,8 @@ from .config import *
 from .instance.config import *
 import pygsheets
 import http
-from ..e_mail import *
+
+from e_mail import *
 #authorization
 gc = pygsheets.authorize(service_file=GOOGLE_SERVICE_KEY)
 sh = gc.open(GOOGLE_SPREADSHEET_NAME)

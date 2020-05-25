@@ -1,7 +1,8 @@
 from threading import Thread
 from flask import Flask,render_template
 from flask_mail import Mail, Message
-from instance.config import *
+from pub_api.instance.config import *
+
 
 def send_email(to, subject, template, **kwargs):
     app = Flask(__name__)
