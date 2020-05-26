@@ -1,9 +1,11 @@
+import os
+basedir = os.path.abspath(os.path.dirname(__file__))
 # Stores credential information
 GIT_USER_ID='test'
 GIT_USER_PASSWORD='test'
 
 # Google Drive API, credentials
-GOOGLE_SERVICE_KEY='/data/myapp/pub_api/instance/pubapi.json'
+GOOGLE_SERVICE_KEY=basedir+'/instance/pubapi.json'
 GOOGLE_SPREADSHEET_NAME = 'publicdata'
 GOOGLE_WORKSHEET = 'Sheet'
 
