@@ -1,0 +1,6 @@
+Flask==1.1.1
+flask_mail==0.9.1
+flask-moment==0.9.0       
+flask-login==0.4.1
+pandas==0.25.3
+pygsheets>=2.0.2
